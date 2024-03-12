@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.items__list {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.pagination__list {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 15px;
+  list-style: none;
+  margin-top: 50px;
+
+  .pagination__btn {
+    font-size: 12px;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    background-color: #000;
+    color: #fff;
+  }
+}
